@@ -1,0 +1,29 @@
+@import url("style.css");
+
+img.contacto{
+    width: 70px;
+}
+section.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    
+}
+
+.contacto div{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.contacto div img{
+    margin-right: 10px;
+}
+
+.contacto p {
+    text-align: left;
+}
