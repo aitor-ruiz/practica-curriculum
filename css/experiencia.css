@@ -1,0 +1,38 @@
+@import url("../css/style.css");
+
+section.experiencia{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.experiencia div{
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+div.derecha{
+    margin-left: 5%;
+}
+
+div.izquierda{
+    margin-right: 5%;
+}
+
+p.empresa{
+    font-size: 1.25em;
+    color: #4F5D75;
+    font-weight: 800;
+    text-align: left;
+}
+
+p.descrip{
+    margin-top: 5px;
+    color: #F25970;
+    text-align: left;
+    font-size: 1.25em;
+}

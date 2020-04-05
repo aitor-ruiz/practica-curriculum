@@ -1,0 +1,144 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        line-height : 1.2em;
+}
+
+img {
+    width: 100%;
+    display: flex;
+    border: 0;
+}
+
+/* CABECERA */
+body{
+    background-color: #FFFFFF;
+}
+div.cabecera{
+    width: 80%;
+    margin: auto;
+    background-color: #2D3142;
+    color: #F25970;
+    box-shadow: 5px 5px 10px #F25970;
+}
+
+div.cabecera-arriba{
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil{
+    width: 90px;
+    border-radius:150px;
+    margin: 25px 10px 25px 50px;
+}
+.cabecera p {
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+span.mayu{
+    font-size: 2.01em;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px 50px 25px;
+    justify-content: space-between;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #F25970;
+    font-size: 1.25em;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    transition: 0.1s;
+    color: #4F5D75;
+    border-bottom: 2px solid #4F5D75;
+}
+
+/* SOBRE MI */
+section.sobre-mi{
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+     
+}
+
+.sobre-mi h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color:#F25970;
+    font-size: 2em;
+}
+
+.sobre-mi p{
+    color:#F25970;
+    font-size: 1.25em;
+}
+/* ESTUDIOS */
+
+section.estudios{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.estudios h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #F25970;
+    font-size: 2em;
+    text-align: left;
+}
+
+div.estudios-caja{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.estudios-caja div{
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+div.derecha{
+    margin-left: 5%;
+}
+
+div.izquierda{
+    margin-right: 5%;
+}
+
+p.estudio{
+    font-size: 1.25em;
+    color: #4F5D75;
+    font-weight: 800;
+    text-align: left;
+}
+p.informacion{
+    margin-top: 5px;
+    color: #F25970;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+footer{
+    height: 100px;
+    background-color: #2D3142;;
+}
