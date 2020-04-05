@@ -1,0 +1,38 @@
+@import url("style.css");
+
+section{
+    width: 60%;
+    margin: auto;
+}
+
+div.radio{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+section h2{
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color:#F25970;
+    font-size: 2em;
+}
+
+div.proyecto{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+}
+
+div.pdf{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+}
