@@ -7,22 +7,25 @@
         line-height : 1.2em;
 }
 
+body{
+    background-color: #FFFFFF;
+}
+
+/* CABECERA */
+
 img {
     width: 100%;
     display: flex;
     border: 0;
 }
 
-/* CABECERA */
-body{
-    background-color: #FFFFFF;
-}
 div.cabecera{
     width: 80%;
     margin: auto;
     background-color: #2D3142;
     color: #F25970;
     box-shadow: 5px 5px 10px #F25970;
+    margin-bottom: 50px;
 }
 
 div.cabecera-arriba{
@@ -68,12 +71,13 @@ nav a:hover{
     border-bottom: 2px solid #4F5D75;
 }
 
+
 /* SOBRE MI */
 section.sobre-mi{
     
     width: 60%;
     margin: auto;
-    margin-top: 50px;
+    margin-bottom: 50px;
      
 }
 
@@ -94,8 +98,7 @@ section.sobre-mi{
 section.estudios{
     width: 60%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .estudios h2{
@@ -132,6 +135,40 @@ p.estudio{
     text-align: left;
 }
 p.informacion{
+    margin-top: 5px;
+    color: #F25970;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+/* IDIOMAS */
+
+section.idiomas{
+    
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+     
+}
+
+.idiomas h2{
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color:#F25970;
+    font-size: 2em;
+}
+.idiomas div{
+    margin-bottom: 25px;
+}
+
+p.idioma{
+    font-size: 1.25em;
+    color: #4F5D75;
+    font-weight: 800;
+    text-align: left;
+}
+p.nivel{
     margin-top: 5px;
     color: #F25970;
     text-align: left;
